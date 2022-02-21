@@ -5,8 +5,13 @@
     margin: 0;
 }
 
+.header h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-color: rgb(113, 191, 243);
+    background-color: #006644;
 
 }
 
