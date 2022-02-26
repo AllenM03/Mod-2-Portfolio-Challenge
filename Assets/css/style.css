@@ -50,14 +50,19 @@ header nav ul {
 
 /* Hero Style Start*/
 .hero {
-    background-image: url(../images/flipped-hero-image.jpeg);
+    background-image: url(/assets/images/3d coder-hero.jpg);
     background-size: cover;
     background-position: center;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-  
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}    
 .hero-cta {
     width: 35%;
     text-align: right;
@@ -72,6 +77,31 @@ header nav ul {
     font-size: 55px;
     color: #fce138;
 }
+
+/* Work Samples */
+
+.p-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.project-box{
+        width: 310px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
 
 /* FOOTER STYLES START */
 footer {
