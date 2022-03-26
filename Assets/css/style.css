@@ -1,8 +1,8 @@
 /* Global Declaration for all elements changing font family */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 6px;
 }
 
 body {
@@ -10,10 +10,35 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 45px;
+    color: #162a48;
+}
+
+p {
+    margin: 0;
+    
+}
+
+bio-style {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 50px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    backface-visibility: visible;
+    margin-bottom: 30px;
+    border:none;
+    padding: 20px 35px;
+}
+
 /* HEADER / NAV BAR STYLES START */
 header {
     padding: 20px 35px;
-    background-color: #00a531;
+    background-color: #4b8eb2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -31,7 +56,6 @@ nav {
 }
 
 header nav ul {
-    display: inline;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,10 +63,10 @@ header nav ul {
     list-style: none;
 }
 
-  header nav ul li a {
+  header nav ul a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.00vw;
 }
 /* HEADER / NAVBAR STYLES END */
 
@@ -56,7 +80,9 @@ header nav ul {
     display: flex;
     justify-content: center;
     height: 250px;
+    
 }
+
 
 .content {
     width: 75%;
@@ -89,9 +115,9 @@ header nav ul {
 }
 
 .project-box{
-        width: 310px;
-        height: 350px;
-        background-color: white;
+        width: 250px;
+        height: 250px;
+        background-color: #4b8eb2;
         border-radius: 10px;
         display: flex;
         justify-content: center;
