@@ -1,7 +1,7 @@
 /* Global Declaration for all elements changing font family */
 * {
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     margin: 6px;
 }
 
@@ -26,13 +26,13 @@ bio-style {
     display:flex;
     justify-content:center;
     align-items: center;
-    padding-left: 50px;
-    background-repeat:no-repeat;
+    padding-left: 30px;
     background-size:cover;
     backface-visibility: visible;
     margin-bottom: 30px;
     border:none;
     padding: 20px 35px;
+    color: #024e76;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -44,24 +44,33 @@ header {
     flex-wrap: wrap;
 }
 
-header nav {
-    margin: 7px 0;
+.flex-list-row {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
-nav {
+/* header nav {
+    margin: 7px 0;
+} */
+
+
+/* nav {
     float: right;
     margin: 7px 0;
     margin: inline;
-}
+} */
 
-header nav ul {
+/* header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
+} */
 
   header nav ul a {
     margin: 0 30px;
@@ -119,7 +128,7 @@ header nav ul {
         height: 250px;
         background-color: #4b8eb2;
         border-radius: 10px;
-        display: flex;
+        display: ;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -128,26 +137,21 @@ header nav ul {
         box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
     }
 
-.project-box p{
+/* .project-box p{
         color: #1c3548;
         margin: 0px;
         font-size: 1.1rem;
         font-weight: 600;
         margin-top: 10px;
-}
+} */
     
-.project-box a{
-        width: 190px;
-        height: 44px;
-        display: flex;
-        justify-content: bottom;
-        align-items: left;
-        color: white;
-        background-color: #1db096;
-        border-radius: 20px;
-        margin-top: 10px;
-        text-decoration: none;
-        box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+.image-row {
+    width: 20vw;
+    height: 22vw;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid var(--theme-image-border-color);
+    box-shadow: 0 0 10px black;
 }    
 
 
